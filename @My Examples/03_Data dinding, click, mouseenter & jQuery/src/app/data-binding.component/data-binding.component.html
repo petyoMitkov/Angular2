@@ -1,0 +1,18 @@
+<div class='data-bindin-example'>
+    <h2>Data Binding Example</h2>
+
+    <button type="button" class="btn" (click)="onClick()">
+        Example Data Binding 1
+    </button>
+    <button type="button" class="btn" (mouseenter)="onMouseEnter()">
+        Example Data Binding 2
+    </button>
+    <button type="button" class="btn" (click)="testJquery()">
+        Test jQuery
+    </button>
+    <div id="displayInfo"></div>
+
+    <input id="rename" [value]="title" />  <!--(input)="title=$event.target.value"-->
+    <button (click)="rename()">rename</button>
+    <h3 id="newName">{{title}}</h3>
+</div>
