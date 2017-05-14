@@ -1,4 +1,4 @@
-import { ExamplePipesComponent } from './examplePipes.component';
+import { ExamplePipesComponent } from './example-pipes.component';
 import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
