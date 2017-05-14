@@ -1,0 +1,13 @@
+.container {
+    background-color: #163554;
+    width: 80%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.bay-joro {
+    padding: 5%;
+    margin: 10px 3% 10px 3%;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #9cbfe2;
+}
