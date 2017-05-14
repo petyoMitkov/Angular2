@@ -1,0 +1,14 @@
+.data-bindin-example {
+    padding: 20px;
+    background-color: #60a7ea;
+}
+.btn {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+     background-color: #a88e1a;
+}
+.btn:hover {
+    background-color: #edcb25;
+}

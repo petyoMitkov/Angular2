@@ -1,0 +1,22 @@
+<h1>{{title}}</h1>
+
+<p>Example Number: <span>{{a + b}}</span></p>
+<p>Example String: <span>{{town}}</span></p>
+<p>Example Obj: <span>Name {{personObj.name}} and age {{personObj.age}}</span></p>
+<p>Example Arr: <span>{{arr[1]}}</span></p>
+<p>Example Arr: <span>{{cars[1].brand}}</span></p>
+
+<h4>Test For loop in Angular with Class</h4>
+<ul>     
+    <li *ngFor="let car of cars">
+        {{car.brand}} with Top Speed {{car.topSpeed}}
+    </li>
+</ul>
+
+<!--My Components-->
+<my-component></my-component>
+ 
+<my-component></my-component>
+
+<!--Example Pipes-->
+<example-pipes-component></example-pipes-component>
