@@ -1,0 +1,18 @@
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<h1 [testINput]="'title"></h1>
+
+<h1>
+  {{title}}
+</h1>
+<!--<img [src]="pic" />-->
+<img src="{{pic}}" />
+<ol>
+  <li *ngFor="let p of arr">
+    <img src="{{p.url}}" alt=""> 
+    <span>Клек: 150кг</span>
+    <span>Лег: 150кг</span>
+    <span>Тяга: 250кг</span>
+    <span>Общо: 550кг</span>
+  </li>
+</ol>
