@@ -1,6 +1,27 @@
-# Angular2
 
-Set jQuery to Angular 2 
+
+# Deploy an Angular 2 app 
+
+Go to Angular 2 project folder: 
+
+1. npm i -g angular-cli-ghpages
+
+2. Creat new gitHub Repo: 
+- git init
+- git add README.md
+- git commit -m "first commit"
+- git remote add origin https://github.com/petyoMitkv/testApp.git
+- git push -u origin master
+
+3. ng build --prod --base-href https://petyoMitkov.github.io/testApp/
+
+4. ngh
+
+*If you have to remove origin use:  git remote rm origin
+
+
+
+# Set jQuery to Angular 2 
 
 - npm install jquery --save
 
