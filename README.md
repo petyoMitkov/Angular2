@@ -33,3 +33,9 @@ Go to Angular 2 project folder:
 
 
 - import $ from 'jquery/dist/jquery'; - in Component where use $ or jQuery
+
+# Run a local AngularJS app on Chrome
+- npm install http-server -g  then move to your project directory
+
+- cd your-project directory
+- http-server
