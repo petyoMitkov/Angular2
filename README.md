@@ -1,6 +1,9 @@
 # Deploy Angular App to GitHub Pages
 https://github.com/angular/angular-cli/wiki/stories-github-pages
 
+###### For GitHub domain:  ng build --prod --output-path docs --base-href '/PROJECT_NAME/'
+###### For subdomaind:  ng build --prod --output-path docs --base-href 'bg.examplesubdomain.com'
+
 A simple way to deploy your Angular app is to use GitHub Pages.
 
 The first step is to create a GitHub account, and then create a repository for your project. Make a note of the user name and project name in GitHub.
